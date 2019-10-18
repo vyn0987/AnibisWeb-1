@@ -14,7 +14,7 @@ describe('SM01 - Login', function() {
   /**
   * TESTCASES
   */
-  xit('Verify user can login successful with valid account', function() {
+  it('Verify user can login successful with valid account', function() {
     this.accounts.forEach((account) => {
       // Login with valid account;
       cy.login(account.email, account.password)
