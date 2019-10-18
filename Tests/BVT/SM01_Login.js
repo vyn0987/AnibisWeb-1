@@ -19,7 +19,7 @@ describe('SM01 - Login', function() {
       // Login with valid account;
       cy.login(account.email, account.password)
 
-      // VP: username displays on my profile page test 2
+      // VP: username displays on my profile page
       cy.checkUserInfo(account.username)
 
       cy.logout()
