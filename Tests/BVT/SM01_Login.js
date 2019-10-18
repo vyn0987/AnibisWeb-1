@@ -14,9 +14,9 @@ describe('SM01 - Login', function() {
   /**
   * TESTCASES
   */
-  it('Verify user can login successful with valid account', function() {
+  xit('Verify user can login successful with valid account', function() {
     this.accounts.forEach((account) => {
-      // Login with valid account
+      // Login with valid account;
       cy.login(account.email, account.password)
 
       // VP: username displays on my profile page
